@@ -1,10 +1,5 @@
 body {
   background-color: #ffffff;
-}
-.section-order {
-  background-color: #2f303a;
-  color: white;
-}
-.footer-section {
-  background-color: #2f303a;
+  font-family: "Roboto", "Raleway";
+  color: #212121;
 }
