@@ -35,6 +35,9 @@ body {
 .navigation-link:focus {
   color: var(--buttom-push-color);
 }
+.navigation-link.current {
+  color: var(--buttom-push-color);
+}
 .my-contact-links {
   font-weight: 500;
   font-size: 14px;
@@ -125,7 +128,7 @@ body {
 }
 .my-contact-links2:hover,
 .my-contact-links2:focus {
-  color: var(--buttom-push-color);
+  color: var(--buttom-color);
 }
 /*Portfolio*/
 .title-sort {
@@ -153,4 +156,7 @@ body {
   font-size: 16px;
   line-height: 1.87;
   letter-spacing: 0.03em;
+}
+li {
+  list-style-type: none;
 }
